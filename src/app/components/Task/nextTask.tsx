@@ -78,6 +78,7 @@ function NextTask() {
           },
         }
       );
+      console.log(response)
       const nextTask = response.data.nextTask;
       if (nextTask) {
         setCurrentTask(nextTask);
